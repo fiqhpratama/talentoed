@@ -4,9 +4,10 @@
   "description": "API HR Talenta for ClockIn and ClockOut",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js",
     "dev": "nodemon index.js",
-    "stop": "node stop.js",
+    "build": "echo 'Build completed'",
+    "start": "node index.js",
+    "vercel-build": "echo 'Vercel build completed'",
     "test": "node test-script/test.js"
   },
   "dependencies": {
@@ -21,7 +22,10 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "keywords": ["hr", "talenta", "clockin", "clockout", "attendance"],
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": ["hr", "talenta", "clockin", "clockout", "attendance", "api"],
   "author": "ans-4175",
   "license": "MIT"
 }

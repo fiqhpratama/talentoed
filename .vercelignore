@@ -1,0 +1,15 @@
+node_modules
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.log
+test-script/
+examples/
+img/
+start.js
+stop.js
+scheduler.js
+execute.js
